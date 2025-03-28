@@ -1,5 +1,7 @@
 # Gendered cities: Studying urban gender bias through street names	
-	
+
+The excel file ```final_munic2001_25.xlsx``` is a panel of  Spanish municipalities for the years 2001-2025 and contains the following variables:
+ 
 | Variables | Description |
 |-----------|--------------------------------------------------|
 | mun_code | Municipality code (INE). |
@@ -9,11 +11,12 @@
 | female | Number of streets honoring a woman. |
 | female_nr | Number of streets honoring a woman, excluding religious streets. |
 | st | Total number of streets in each municipality. |
-| fs | Female share in street names, calculated as male_nr/ (male_nr+female_nr)*100. |
+| fs | Female share in street names, calculated as female_nr/ (male_nr+female_nr)*100. |
 	
 ## Note about methodology	
 The algorithm to classify streets by their gender (if any) is not error-free, but to the extent that errors identifying female streets are similar in relative magnitude to errors identifying male streets, errors offset one another and do not bias the female share. For this reason, errors in the female share indicator are expected to be small in large municipalities but can be high in small municipalities.	
-For more details about the methodology of the algorithm, see the article below.	
+For more details about the methodology of the algorithm, see the article below.
+
 We focus on the list of municipalities existing in 2001 (the first year with available data on street names). For comparability purposes over time, we have not considered municipal segregations since then; that is, when a municipality becomes independent from another, we continue to consider the original joint entity before the segregation. Regarding municipal unions, we do consider the new municipality as if it had existed since 2001.	
 	
 ## Citation:	
